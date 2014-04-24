@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  div#post
+    h1= page.title
+    h5= moment(page.date).format('DD.MM.YYYY')
+    section.content!= page.html

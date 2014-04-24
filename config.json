@@ -1,0 +1,9 @@
+{
+  "locals": {
+    "title": "Йордан Дичев"
+  },
+  "require": {
+    "moment": "moment",
+    "_": "underscore"
+  }
+}
