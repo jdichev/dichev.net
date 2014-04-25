@@ -28,7 +28,10 @@ template: post.jade
 това може да позволи да се направи операция, която да изчисли колко пари
 са изхарчени по определенно нещо.
 
-`jQuery("html body table.body tbody tr td center table#main_table tbody tr td#main_table form table.grid tbody tr.tr-2, html body table.body tbody tr td center table#main_table tbody tr td#main_table form table.grid tbody tr.tr-1").each(function() {     console.log($(this).text()); });`
+`jQuery("html body table.body tbody tr td center table#main_table tbody tr td#main_table form table.grid tbody tr.tr-2, html body table.body tbody tr td center table#main_table tbody tr td#main_table form table.grid tbody tr.tr-1")
+.each(function() {
+  console.log($(this).text());
+});`
 
 Надявам се кодът да е полезен на някого - как точно да стане
 пресмятането оставям на желаещите да се дозанимаят.

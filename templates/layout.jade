@@ -3,37 +3,31 @@ html(lang='en')
   head
     block head
       meta(charset='utf-8')
-      meta(name='google-site-verification', content='mVhhwHSgNg7ZoGR6nD4giIXTbjaSPNIu8voKZt6dgFw')
       title
         block title
           = locals.title
       link(rel='stylesheet', href='/font/droid-serif/stylesheet.css')
-      link(rel='stylesheet', href='/css/bootstrap.min.css')
       link(rel='stylesheet', href='/css/screen.css')
+
   body
+
     div#wrap
       div#header
-        div.row-fluid
-          div.span12
-            h2#logo
-              a#site_name(href='/')= locals.title
-            ul#main_navigation
-              li
-                a(href='/bg/about.html') Относно
+        h2#logo
+          a#site_name(href='/')= locals.title
+
+        ul#main_navigation
+          li
+            a(href='/bg/about.html') Относно
+          li
+            a(href='/bg/archive.html') Архив
 
       div#main
-        div.row-fluid
-          div.span12
-            block content
-              h2 Хелоу, уърлд!
+        block content
+          h2 Хелоу, уърлд!
 
       div#footer
-        div.row-fluid
-          div.span12
-            p= locals.title
-              &nbsp;|&nbsp;
-              span
-                a(href='/bg/archive.html') Архив
+        p= locals.title
 
     script(src='//static.getclicky.com/js', type='text/javascript').
     script(type='text/javascript').

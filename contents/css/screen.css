@@ -27,6 +27,14 @@ ol, ul {
     list-style: none;
 }
 
+em {
+    font-family: DroidSerifItalic;
+}
+
+strong {
+    font-family: DroidSerifBold;
+}
+
 blockquote, q {
     quotes: none;
 }
@@ -113,16 +121,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+    letter-spacing: -1px;
+    font-family: DroidSerifBold;
+    line-height: 1.3em;
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 220%;
     margin-bottom: 1em;
 }
 
 h2 {
-    font-size: 180%;
+    font-size: 200%;
     margin-bottom: 0.5em;
 }
 
@@ -153,10 +163,6 @@ ul ul {
 
 p, li {
     margin-bottom: 1em;
-}
-
-li {
-    margin-left: 10px;
 }
 
 dd {
@@ -241,7 +247,7 @@ h2#logo {
 
 #main_navigation li {
     float: left;
-    margin-left: 8px;
+    margin-left: 16px;
 }
 
 #logo a,
@@ -249,8 +255,8 @@ h2#logo {
     display: block;
     line-height: 40px;
     height: 40px;
-    line-height: 40px;
     vertical-align: middle;
+    padding: 0 16px;
 }
 
 /* MAIN CONTAINER
@@ -267,10 +273,6 @@ h2#logo {
 #about_brief p {
     font-size: 75%;
     text-align: center;
-}
-
-#main h2 {
-    font-size: 175%;
 }
 
 #main .social_networks_icons {
@@ -292,11 +294,6 @@ h2#logo {
 .post:last-child {
     border-bottom: none;
     margin-bottom: 0;
-}
-
-.post h2 {
-    font-size: 155%;
-    line-height: 115%;
 }
 
 .posts {
@@ -479,7 +476,6 @@ ul.tiles li a img {
 #post ul li,
 .post ul li {
     list-style-type: disc;
-    list-style-position: inside;
 }
 
 #post ol li,
