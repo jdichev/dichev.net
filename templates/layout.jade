@@ -12,7 +12,7 @@ html(lang='en')
   body
 
     div#wrap
-      div#header
+      header
         h2#logo
           a#site_name(href='/')= locals.title
 
@@ -26,7 +26,7 @@ html(lang='en')
         block content
           h2 Хелоу, уърлд!
 
-      div#footer
+      footer
         p= locals.title
 
     script(src='//static.getclicky.com/js', type='text/javascript').
