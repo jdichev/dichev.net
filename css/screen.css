@@ -122,7 +122,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: -1px;
-    font-family: DroidSerifBold;
+    font-family: DroidSerifRegular;
     line-height: 1.3em;
 }
 
@@ -218,14 +218,15 @@ blockquote {
 
 /* LAYOUTS
 *******************************************************************************/
-#header, #main, #footer {
+header, #main, footer {
     width: 800px;
     margin: 0 auto;
 }
 
 /* HEADER
 *******************************************************************************/
-#header {
+header {
+    border-bottom: 1px solid #ccc;
     position: relative;
     padding-top: 10px;
     margin-bottom: 40px;
@@ -241,303 +242,46 @@ h2#logo {
 }
 
 #main_navigation {
-    float: left;
-    margin-left: 8px;
+    float: right;
+    margin-right: 32px;
 }
 
 #main_navigation li {
     float: left;
     margin-left: 16px;
+    margin-bottom: 8px;
 }
 
 #logo a,
 #main_navigation li a {
+    font-size: 85%;
     display: block;
     line-height: 40px;
     height: 40px;
     vertical-align: middle;
     padding: 0 16px;
+    color: #777;
+    font-family: DroidSerifRegular;
+    border: none;
 }
 
-/* MAIN CONTAINER
-*******************************************************************************/
-#main {
-    padding: 10px 0;
-}
-
-#about_brief {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#about_brief p {
-    font-size: 75%;
-    text-align: center;
-}
-
-#main .social_networks_icons {
-    margin-bottom: 1em;
-}
-
-#main .social_networks_icons li {
-    margin: 10px
-}
-
-/* POSTS
-*******************************************************************************/
+#post,
 .post {
-    padding-bottom: 20px;
-    border-bottom: 1px dotted #CECECE;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
-.post:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
+#post img,
+.post img {
+    max-width: 100%;
 }
 
-.posts {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.posts li {
-    float: left;
-    width: 100%;
-    clear: both;
-    margin-bottom: 40px;
-    position: relative;
-}
-
-.posts li .publication_title {
-    float: left;
-    margin-left: 72px;
-    display: inline;
-    font-size: 165%;
-    line-height: 125%;
-    margin-bottom: 10px;
-}
-
-.posts li .publication_date {
-    position: absolute;
-    left: 0;
-    top: 4px;
-    float: left;
-    font-size: 80%;
-    vertical-align: middle;
-    width: 72px;
-    color: #B3CF8E;
-    font-family: sans-serif;
-}
-
-.posts li .publication_snippet {
-    float: left;
-    margin-left: 72px;
-    clear: left;
-    display: inline;
-    font-size: 125%;
-    line-height: 135%;
-}
-
-#main .posts li {
-    list-style-type: none;
-}
-
-#main .small_posts li {
-    float: left;
-    clear: left;
-    margin-bottom: 10px;
-    list-style-type: none;
-}
-
-.small_posts li .publication_title,
-.small_posts li .publication_date {
-    float: left;
-    clear: left;
-}
-
-.small_posts li .publication_date {
-    font-size: 85%;
-}
-
-.small_posts li .publication_snippet {
-    display: none;
-}
-
-.post img,
-#post img {
-    max-width: 778px;
-    border: 1px solid #E5EFE1;
-}
-
-#picture {
-    text-align: center;
-    padding: 8px 0;
-}
-
-#picture .desc {
-    background: #DDE9AF;
-    color: #000;
-    padding: 8px 0;
-    font-size: 80%;
-    display: block;
-}
-
-#post #post_gallery {
-    float: left;
-    padding: 0 20px;
-    margin-bottom: 10px;
-    width: 540px;
-}
-
-#post #post_gallery li {
-    float: left;
-    list-style: none;
-    margin: 0 10px 10px 0;
-    clear: none;
-}
-
-#post_gallery img {
-    border: 1px solid #333;
-}
-
-#post_gallery .active img {
-    border: 1px solid #D33432;
-}
-
-ul.categories li {
-    margin-bottom: 8px;
-}
-
-ul.categories li.active a {
-    font-weight: 600;
-}
-
-ul.categories li.active li a {
-    font-weight: 400;
-}
-
-/* TILES
-*******************************************************************************/
-ul.tiles,
-ul.tiles li {
-    float: left;
-}
-
-ul.tiles li {
-    margin: 8px;
-}
-
-ul.tiles li a img {
-    border: 1px solid #ffffff;
-}
-
-/* RIGHT COLUMN
-*******************************************************************************/
-
-/* TEXTS
-*******************************************************************************/
-#post {
-}
-
-#post h2 {
-    font-size: 165%;
-    line-height: 110%;
-}
-
-#post a:link {
-}
-
-#post a:visited {
-}
-
-#post a:hover,
-#post a:active,
-#post a:focus {
-}
-
-#post p,
-#post li,
-#post dt,
-#post dd {
-    clear: left;
-}
-
-#page_content,
-.post,
-#post {
-    float: left;
-    padding: 0 0 10px;
-    border-bottom: 1px dotted #CECECE;
-    overflow: visible;
-    margin-bottom: 32px;
-}
-
-#post ul li,
-.post ul li {
-    list-style-type: disc;
-}
-
-#post ol li,
-.post ol li {
-    list-style-type: decimal;
-    list-style-position: inside;
-}
-
-/* Footer */
-#footer {
+footer {
     clear: both;
     overflow: auto;
     padding: 40px 0 64px;
     font-size: 85%;
 }
 
-#footer p, #footer form {
+footer p {
     text-align: center;
-}
-
-#search_results {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#search_results dt {
-    font-size: 145%;
-    line-height: 145%;
-    margin-bottom: 16px;
-}
-
-#search_results dd {
-    margin-bottom: 2em;
-}
-
-.pagination {
-    float: left;
-    font-size: 85%;
-    border-top: 1px solid #ececec;
-    color: #aaaaaa;
-    padding: 10px;
-}
-
-.pagination a {
-    text-align: center;
-}
-
-/* Page Styles */
-body#body_blog div#main {
-    /*background: #1d1c12 url(../images/coffee2_blog.jpg) no-repeat 50% -100px;*/
-}
-
-body#body_blog div#page_content {
-    height: 205px;
-    overflow: hidden;
-}
-
-div#page_content {
-    border-bottom: none;
-}
-
-div#main div#exception h1.error_code {
-    font-size: 2000%;
-    cursor: default;
 }
