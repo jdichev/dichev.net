@@ -223,6 +223,13 @@ header, #main, footer {
     margin: 0 auto;
 }
 
+@media (max-width: 820px) {
+    header, #main, footer {
+        width: 96%;
+        padding: 0 2%;
+    }
+}
+
 /* HEADER
 *******************************************************************************/
 header {
@@ -270,9 +277,9 @@ header {
 }
 
 #hello {
-    padding: 60px;
+    padding: 48px 60px;
     margin-bottom: 30px;
-    font-size: 130%;
+    font-size: 110%;
 }
 
 #hello h2 {
@@ -294,6 +301,7 @@ footer {
     overflow: auto;
     padding: 40px 0 64px;
     font-size: 85%;
+    margin-bottom: 160px;
 }
 
 footer p {
