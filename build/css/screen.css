@@ -233,7 +233,7 @@ header {
     overflow: hidden;
 }
 
-h2#logo {
+#logo {
     float: left;
     width: 240px;
     color: #333;
@@ -263,6 +263,20 @@ h2#logo {
     color: #777;
     font-family: DroidSerifRegular;
     border: none;
+}
+
+#main_navigation li.active a {
+    color: #000;
+}
+
+#hello {
+    padding: 60px;
+    margin-bottom: 30px;
+    font-size: 130%;
+}
+
+#hello h2 {
+    margin-bottom: 8px;
 }
 
 #post,
