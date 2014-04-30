@@ -13,13 +13,11 @@ block content
   section.archive
     ul
       each year in _.chain(archive).keys().reverse().value()
-        li
-          em= year
+        li= year
         - var months = _.groupBy(archive[year], function(item) { return map[item.date.getMonth()] })
         ul
           each articles, month in months
-            li
-              em= month
+            li= month
               ul
                 each article in articles
                   li
