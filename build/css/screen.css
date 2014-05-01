@@ -276,19 +276,55 @@ header {
     color: #000;
 }
 
-#hello {
-    padding: 48px 60px;
+#hero {
+    color: #555;
+    padding: 38px 40px;
     margin-bottom: 30px;
     font-size: 110%;
+    text-shadow: 0 0 60px #bbb;
+    transition: text-shadow 0.5s ease;
 }
 
-#hello h2 {
+#hero:hover {
+    cursor: default;
+    color: #333;
+    text-shadow: 0 0 1px #ddd;
+}
+
+#hero h2 {
     margin-bottom: 8px;
 }
 
 #post,
 .post {
     margin-bottom: 100px;
+    position: relative;
+}
+
+.post h5,
+#post h5 {
+    color: #bbbbbb;
+
+    width: 120px;
+    font-size: 65%;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: -10px;
+    margin-left: -130px;
+    text-align: right;
+    transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+
+    transform-origin: right bottom;
+    -o-transform-origin: right bottom;
+    -moz-transform-origin: right bottom;
+    -mx-transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
 }
 
 #post img,

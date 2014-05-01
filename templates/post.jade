@@ -1,7 +1,8 @@
 extends layout
 
 block content
-  div#post
+  section#hero
     h1= page.title
+  section#post
     h5= moment(page.date).format('DD.MM.YYYY')
-    section.content!= page.html
+    != page.html
