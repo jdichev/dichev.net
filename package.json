@@ -1,0 +1,24 @@
+{
+  "name": "dichev.net",
+  "version": "1.0.0",
+  "description": "my personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdichev/dichev.net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdichev/dichev.net/issues"
+  },
+  "homepage": "https://github.com/jdichev/dichev.net",
+  "dependencies": {
+    "moment": "^2.10.6",
+    "underscore": "^1.8.3",
+    "wintersmith": "^2.2.1"
+  }
+}
