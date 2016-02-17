@@ -261,6 +261,7 @@ header {
     float: left;
     margin-left: 16px;
     margin-bottom: 8px;
+    list-style: none;
 }
 
 #logo a,
