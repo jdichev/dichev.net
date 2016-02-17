@@ -1,6 +1,18 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Уебсайт ръчна изработка</title><link rel="stylesheet" href="/font/droid-serif/stylesheet.css"><link rel="stylesheet" href="/css/screen.css"></head><body><div id="wrap"><header><span id="logo"><a id="site_name" href="/">Йордан Дичев</a></span><ul id="main_navigation"><li><a href="/bg/about.html">Относно</a></li><li><a href="/bg/archive.html">Архив</a></li></ul></header><div id="main"><section id="hero"><h2 id="-">Уебсайт ръчна изработка</h2>
-<p>Добре дошли в уебсайта на Йордан Дичев.</p>
-</section><div class="post"><h2><a href="/bg/posts/188/">Дизайн жаргон: скеоморфизъм?</a><h5>20.08.2012</h5></h2><p>Напоследък някои компании са обвинявани, че прекаляват със
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Уебсайт ръчна изработка</title><link rel="stylesheet" href="/font/droid-serif/stylesheet.css"><link rel="stylesheet" href="/css/screen.css"></head><body><div id="wrap"><header><span id="logo"><a id="site_name" href="/">Йордан Дичев</a></span><ul id="main_navigation"><li><a href="/bg/about.html">Относно</a></li><li><a href="/bg/archive.html">Архив</a></li></ul></header><div id="main"><section id="hero"><h1 id="-">Уебсайт ръчна изработка</h1>
+</section><div class="post"><h2><a href="/bg/posts/189/">Лесно публикуване с wintersmith</a><h5>17.02.2016</h5></h2><p>Този сайт е преживял много метаморфози. Преди време ползвах CMS системи като WordPress и Radiant. След това написах своя собствена системка, но това винаги изискваше да ползвам хостинг акаунт с база данни.</p>
+<p>Напоследък ползвам един npm модул за генериране на статични сайтове от файлове. Казва се <a href="https://github.com/jnordberg/wintersmith">wintersmith</a> и дава чудесна възможност да се ползват <a href="https://pages.github.com/">GitHub Pages</a> за хостване на съдържанието. Повече информация как се ползват тези неща може да се намери през линковете.</p>
+<p>Има само един проблем - удобното публикуване в gh-pages бранча.</p>
+<p>Последно се спрях на следния вариант:</p>
+<ol>
+<li>Изпълнява се build командата за да получим статичния сайт в директория build<pre><code>$ wintersmith build
+</code></pre></li>
+<li>Премахваме remote бранча gh-pages<pre><code>$ git push origin --delete gh-pages
+</code></pre></li>
+<li>Публикуваме сайта от build директорията в нов remote бранч gh-pages<pre><code>$ git push origin --delete gh-pages
+</code></pre></li>
+</ol>
+<p>Ето 3 стъпки за по-лесно публикуване на ново съдържание. Всъщност причината да пиша този пост е да тествам тази техника.</p>
+</div><div class="post"><h2><a href="/bg/posts/188/">Дизайн жаргон: скеоморфизъм?</a><h5>20.08.2012</h5></h2><p>Напоследък някои компании са обвинявани, че прекаляват със
 скеофоморфизма в продуктите си. Говоря за Епъл, но вероятно има и други, които ги имитират например.</p>
 <p>Оказа се, че такава дума в българския нет не съществува. Затова реших да сложа тук малко информация по въпроса. </p>
 <p>Според някои дефиниции, които изрових, <strong>скеоморф</strong> е обект, който има орнаментални характеристики на структурата,
@@ -71,6 +83,4 @@ info, social networking, etc.)</p>
 оправят с правилата на компаниите правещи операционните системи като
 Епъл и Гугъл и съответно да се налага да правят компромиси, които
 избягват чрез сайтовете си.</p>
-</div><div class="post"><h2><a href="/bg/posts/180/">Нещо като тераса мечта</a><h5>20.07.2011</h5></h2><p><a href="/bg/posts/180/2011-07-13_15-37-25_186.jpg"><img src="/bg/posts/180/2011-07-13_15-37-25_186.jpg" alt="Терасата
-мечта"></a></p>
 </div></div><footer><p>Йордан Дичев</p></footer></div><script src="/js/main.js" type="text/javascript"></script><script src="//static.getclicky.com/js" type="text/javascript"></script><script type="text/javascript">try{ clicky.init(66638379); }catch(e){}</script><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66638379ns.gif"></p></noscript></body></html>
