@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/jdichev/dichev.net/issues"
   },
+  "scripts": {
+    "publish": "git push origin --delete gh-pages && git subtree push --prefix=build origin gh-pages"
+  },
   "homepage": "https://github.com/jdichev/dichev.net",
   "dependencies": {
     "moment": "^2.10.6",

@@ -23,7 +23,7 @@ $ git push origin --delete gh-pages
 ```
 3. Публикуваме сайта от build директорията в нов remote бранч gh-pages
 ```
-$ git push origin --delete gh-pages
+$ git subtree push --prefix=build origin gh-pages
 ```
 
 Ето 3 стъпки за по-лесно публикуване на ново съдържание. Всъщност причината да пиша този пост е да тествам тази техника.
