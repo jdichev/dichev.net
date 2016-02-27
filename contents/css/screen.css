@@ -1,106 +1,50 @@
-/* http://meyerweb.com/eric/tools/css/reset/ */
-/* v1.0 | 20080212 */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  line-height: 1.618;
+	line-height: 1;
 }
-
 ol, ul {
-  /*list-style: none;*/
+	list-style: none;
 }
-
-em {
-  font-family: DroidSerifItalic;
-  font-style: italic;
-}
-
-strong {
-  font-family: DroidSerifBold;
-  font-weight: bold;
-}
-
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
-
-/* remember to define focus styles! */
-:focus {
-  outline: 0;
-}
-
-/* remember to highlight inserts somehow! */
-ins {
-  text-decoration: none;
-}
-
-del {
-  text-decoration: line-through;
-}
-
-/* tables still need 'cellspacing="0"' in the markup */
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* `Clear Floated Elements
-----------------------------------------------------------------------------------------------------*/
-
-/* http://sonspring.com/journal/clearing-floats */
-
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-
-/* http://www.positioniseverything.net/easyclearing.html */
-
-.clearfix:after {
-  clear: both;
-  content: '.';
-  display: block;
-  visibility: hidden;
-  height: 0;
-}
-
-.clearfix {
-  display: inline-block;
-}
-
-* html .clearfix {
-  height: 1%;
-}
-
-.clearfix {
-  display: block;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /*******************************************************************************
@@ -110,8 +54,8 @@ table {
 
 html, body {
   background: #FFFAF0;
-  color: #555555;
-  font-family: DroidSerifRegular, Georgia, Helvetica, Arial, sans-serif;
+  color: #555;
+  font-family: DroidSerifRegular, Georgia, serif;
 }
 
 html {
@@ -119,42 +63,39 @@ html {
 }
 
 body {
-  background: #FFFAF0 url(../images/grass3.png) 0 100% repeat-x;
+  background-image: url(../images/grass3.png), url(../images/top.png);
+  background-position: 0 100%, 50% 0;
+  background-repeat:  repeat-x;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /*letter-spacing: -1px;*/
   font-family: DroidSerifRegular;
-  /*line-height: 1.3;*/
+  margin-bottom: 1em;
+  line-height: 1.618;
 }
 
 h1 {
   font-size: 240%;
-  margin-bottom: 1em;
 }
 
 h2 {
   font-size: 220%;
-  margin-bottom: 0.5em;
+}
+
+h2 a {
+  display: inline-block;
 }
 
 h3 {
   font-size: 150%;
-  margin-bottom: 0.5em;
 }
 
 h4 {
   font-size: 130%;
-  margin-bottom: 0.5em;
 }
 
 h5 {
   font-size: 110%;
-  margin-bottom: 0.5em;
-}
-
-p, ul, ol, dl, td {
-  /*line-height: 155%;*/
 }
 
 ul ul {
@@ -165,6 +106,8 @@ ul ul {
 
 p, li {
   margin-bottom: 1em;
+  font-size: 1.1rem;
+  line-height: 1.618;
 }
 
 li {
@@ -199,16 +142,16 @@ a:visited:hover {
 }
 
 pre {
-  font-family: monospaced;
-  width: auto;
+  font-family: monospace;
   /*font-size: 2rem;*/
   /*font-size: 80%;*/
+  white-space: normal;
 }
 
 code {
   /*font-size: 1rem;*/
   /*font-size: 2rem;*/
-  font-family: monospace;
+  /*font-family: monospace;*/
 }
 
 small {
@@ -218,10 +161,6 @@ small {
 blockquote {
   margin-left: 20px;
   font-size: 90%;
-}
-
-#wrap {
-  background: url(../images/top.png) repeat-x 50% 0;
 }
 
 /* LAYOUTS
@@ -241,28 +180,28 @@ header {
   overflow: hidden;
 }
 
-#logo {
-  float: left;
-  min-width: 240px;
-  color: #333;
-  text-align: center;
-  font-size: 16px;
+a#site_name {
+    float: left;
+    min-width: 160px;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
 }
 
-#main_navigation {
+#navi {
   float: right;
   margin-right: 32px;
 }
 
-#main_navigation li {
+#navi li {
   float: left;
   margin-left: 1rem;
   margin-bottom: 0;
   list-style: none;
 }
 
-#logo a,
-#main_navigation li a {
+a#site_name,
+#navi li a {
   /*font-size: 85%;*/
   display: block;
   line-height: 3rem;
@@ -278,17 +217,17 @@ header a:hover {
   text-decoration: underline;
 }
 
-#main_navigation li.active a {
+#navi li.active a {
   color: #000;
 }
 
 #hero {
   color: #555;
   padding: 38px 40px;
-  margin-bottom: 30px;
   font-size: 110%;
   text-shadow: 0 0 60px #bbb;
   transition: text-shadow 0.5s ease;
+  text-align: center;
 }
 
 #hero:hover {
@@ -358,19 +297,19 @@ footer p {
   }
   header, #main, footer {
     width: auto;
-    padding: 0 3rem;
+  }
+
+  #main {
+    padding: 0 2rem;
   }
 
   #logo a,
-  #main_navigation li a {
+  #navi li a {
     font-size: 1.3rem;
   }
 
   #hero {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     margin: 0;
-  }
-  code {
-    font-size: 2rem;
   }
 }
