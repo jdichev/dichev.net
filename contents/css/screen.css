@@ -55,7 +55,7 @@ table {
 html, body {
   background: #FFFAF0;
   color: #555;
-  font-family: DroidSerifRegular, Georgia, serif;
+  font-family: Georgia, serif;
 }
 
 html {
@@ -69,9 +69,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: DroidSerifRegular;
+  /*font-family: DroidSerifRegular;*/
   margin-bottom: 1em;
-  line-height: 1.618;
+  /*line-height: 1.618;*/
 }
 
 h1 {
@@ -173,7 +173,7 @@ header, #main, footer {
 /* HEADER
 *******************************************************************************/
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #dfdfdf;
   position: relative;
   padding-top: 10px;
   margin-bottom: 40px;
@@ -209,7 +209,7 @@ a#site_name,
   vertical-align: middle;
   padding: 0 1rem;
   color: #777;
-  font-family: DroidSerifRegular;
+  /*font-family: DroidSerifRegular;*/
   border: none;
 }
 
@@ -223,21 +223,21 @@ header a:hover {
 
 #hero {
   color: #555;
-  padding: 38px 40px;
+  padding: 16px 0;
   font-size: 110%;
-  text-shadow: 0 0 60px #bbb;
-  transition: text-shadow 0.5s ease;
-  text-align: center;
+  /*text-shadow: 0 0 60px #bbb;*/
+  /*transition: text-shadow 0.5s ease;*/
+  /*text-align: center;*/
 }
 
 #hero:hover {
   cursor: default;
   color: #333;
-  text-shadow: 0 0 1px #ddd;
+  /*text-shadow: 0 0 1px #ddd;*/
 }
 
 #hero h2 {
-  margin-bottom: 8px;
+  /*margin-bottom: 8px;*/
 }
 
 #post,
@@ -246,7 +246,7 @@ header a:hover {
   position: relative;
 }
 
-.post h5,
+/*.post h5,
 #post h5 {
   color: #bbbbbb;
 
@@ -270,7 +270,7 @@ header a:hover {
   -moz-transform-origin: right bottom;
   -mx-transform-origin: right bottom;
   -webkit-transform-origin: right bottom;
-}
+}*/
 
 #post img,
 .post img {

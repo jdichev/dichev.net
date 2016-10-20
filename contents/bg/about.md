@@ -9,4 +9,4 @@ template: page.jade
 Ако се интересувате повече от мен, появявам се и на следните места в мрежата:
 
 * [GitHub](https://github.com/jdichev "@jdichev"), където прекарвам повече време
-* [twitter](https://twitter.com/jdichev "@jdichev"), където предимно чета и споделям неща по работа
+<!-- * [twitter](https://twitter.com/jdichev "@jdichev"), където предимно чета и споделям неща по работа -->
