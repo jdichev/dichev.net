@@ -19,8 +19,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	/*font-size: 100%;*/
+	/*font: inherit;*/
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -33,6 +33,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	font-size: 1rem;
 }
 blockquote, q {
 	quotes: none;
@@ -65,21 +66,20 @@ html {
 body {
   background-image: url(../images/grass3.png), url(../images/top.png);
   background-position: 0 100%, 50% 0;
-  background-repeat:  repeat-x;
+  background-repeat: repeat-x;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /*font-family: DroidSerifRegular;*/
-  margin-bottom: 1em;
-  /*line-height: 1.618;*/
+  margin-bottom: 1rem;
+	font-weight: 400;
 }
 
 h1 {
-  font-size: 240%;
+  font-size: 2.4rem;
 }
 
 h2 {
-  font-size: 220%;
+  font-size: 2.2rem;
 }
 
 h2 a {
@@ -87,25 +87,25 @@ h2 a {
 }
 
 h3 {
-  font-size: 150%;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 130%;
+  font-size: 1.3rem;
 }
 
 h5 {
-  font-size: 110%;
+  font-size: 1.1rem;
 }
 
 ul ul {
-  font-size: 100%;
+  font-size: 1rem;
   margin-left: 10px;
-  margin-top: 1em;
+  margin-top: 1rem;
 }
 
 p, li {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   font-size: 1.1rem;
   line-height: 1.618;
 }
@@ -143,30 +143,23 @@ a:visited:hover {
 
 pre {
   font-family: monospace;
-  /*font-size: 2rem;*/
-  /*font-size: 80%;*/
   white-space: normal;
 }
 
-code {
-  /*font-size: 1rem;*/
-  /*font-size: 2rem;*/
-  /*font-family: monospace;*/
-}
-
 small {
-  font-size: 85%;
+  font-size: 0.85rem;
 }
 
 blockquote {
   margin-left: 20px;
-  font-size: 90%;
+  font-size: 0.9rem;
 }
 
 /* LAYOUTS
 *******************************************************************************/
 header, #main, footer {
-  width: 800px;
+  width: 716px;
+	padding-right: 78px;
   margin: 0 auto;
 }
 
@@ -175,41 +168,37 @@ header, #main, footer {
 header {
   border-bottom: 1px solid #dfdfdf;
   position: relative;
-  padding-top: 10px;
   margin-bottom: 40px;
   overflow: hidden;
+	font-size: 1.2rem;
 }
 
 a#site_name {
     float: left;
-    min-width: 160px;
     color: #333;
+		font-weight: 400;
+		letter-spacing: -3px;
     text-align: center;
-    font-size: 16px;
+		font-size: 2rem;
 }
 
 #navi {
   float: right;
-  margin-right: 32px;
 }
 
 #navi li {
   float: left;
-  margin-left: 1rem;
   margin-bottom: 0;
   list-style: none;
 }
 
 a#site_name,
 #navi li a {
-  /*font-size: 85%;*/
   display: block;
   line-height: 3rem;
-  /*height: 40px;*/
   vertical-align: middle;
   padding: 0 1rem;
   color: #777;
-  /*font-family: DroidSerifRegular;*/
   border: none;
 }
 
@@ -223,21 +212,13 @@ header a:hover {
 
 #hero {
   color: #555;
-  padding: 16px 0;
-  font-size: 110%;
-  /*text-shadow: 0 0 60px #bbb;*/
-  /*transition: text-shadow 0.5s ease;*/
-  /*text-align: center;*/
+  padding: 1rem 0;
+  font-size: 1.1rem;
 }
 
 #hero:hover {
   cursor: default;
   color: #333;
-  /*text-shadow: 0 0 1px #ddd;*/
-}
-
-#hero h2 {
-  /*margin-bottom: 8px;*/
 }
 
 #post,
@@ -245,32 +226,6 @@ header a:hover {
   margin-bottom: 100px;
   position: relative;
 }
-
-/*.post h5,
-#post h5 {
-  color: #bbbbbb;
-
-  width: 120px;
-  font-size: 65%;
-  float: left;
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin-top: -10px;
-  margin-left: -130px;
-  text-align: right;
-  transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-
-  transform-origin: right bottom;
-  -o-transform-origin: right bottom;
-  -moz-transform-origin: right bottom;
-  -mx-transform-origin: right bottom;
-  -webkit-transform-origin: right bottom;
-}*/
 
 #post img,
 .post img {
@@ -281,7 +236,7 @@ footer {
   clear: both;
   overflow: auto;
   padding: 3rem 0 10rem;
-  font-size: 85%;
+  font-size: 0.85rem;
   margin-bottom: 10rem;
 }
 
@@ -289,23 +244,22 @@ footer p {
   text-align: center;
 }
 
-
-
 @media (max-width: 1024px) {
-  body {
-    font-size: 20px;
-  }
+	html {
+		font-size: 200%;
+	}
+
+	header {
+		padding: 0 1rem;
+	}
+
   header, #main, footer {
     width: auto;
+		padding-right: 0;
   }
 
   #main {
     padding: 0 2rem;
-  }
-
-  #logo a,
-  #navi li a {
-    font-size: 1.3rem;
   }
 
   #hero {
