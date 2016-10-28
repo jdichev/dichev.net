@@ -12,19 +12,19 @@ html(lang='en')
   body
 
     header
-      a#site_name(href='/')= "Уебсайт ръчна изработка"
+      a#site_name(href='/', title='Уебсайт ръчна изработка')= "У.Р.И."
 
       ul#navi
         li
-          a(href='/bg/about.html') Относно
+          a(href='/bg/about.html', title='Относно') Относно
         li
-          a(href='/bg/archive.html') Архив
+          a(href='/bg/archive.html', title='Архив') Архив
 
     section#main
       block content
 
     footer
-      // p= locals.title
+      //- p= locals.title
 
     script(src='/js/main.js', type='text/javascript').
     script(src='//static.getclicky.com/js', type='text/javascript').

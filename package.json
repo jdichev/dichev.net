@@ -16,7 +16,9 @@
     "url": "https://github.com/jdichev/dichev.net/issues"
   },
   "scripts": {
-    "publish": "git push origin --delete gh-pages && git subtree push --prefix=build origin gh-pages"
+    "publish": "git push origin --delete gh-pages && git subtree push --prefix=build origin gh-pages",
+    "preview": "./node_modules/wintersmith/bin/wintersmith preview",
+    "build": "./node_modules/wintersmith/bin/wintersmith build"
   },
   "homepage": "https://github.com/jdichev/dichev.net",
   "dependencies": {
