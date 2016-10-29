@@ -177,9 +177,9 @@ a#site_name {
     float: left;
     color: #333;
 		font-weight: 400;
-		letter-spacing: -3px;
+		letter-spacing: 8px;
     text-align: center;
-		font-size: 2rem;
+		font-size: 1.3rem;
 }
 
 #navi {
