@@ -10,7 +10,7 @@ block content
   -   return -item.date
   - }).first(5).value() // and finally take the first 5
 
-  //section#hero!= page.html
+  section#hero!= page.html
 
   each post in posts
     div.post
@@ -18,3 +18,4 @@ block content
         a(href=post.url)= post.title
         //- h5= moment(post.date).format('DD.MM.YYYY')
       != post.html
+      //- p= moment(post.date).format('DD.MM.YYYY')

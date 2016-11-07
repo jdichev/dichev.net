@@ -64,7 +64,7 @@ html {
 }
 
 body {
-  background-image: url(../images/grass3.png), url(../images/top.png);
+  background-image: url(../images/grass4.png), url(../images/top.png);
   background-position: 0 100%, 50% 0;
   background-repeat: repeat-x;
 }
@@ -180,6 +180,7 @@ a#site_name {
 		letter-spacing: 8px;
     text-align: center;
 		font-size: 1.3rem;
+		text-decoration: none;
 }
 
 #navi {
@@ -211,8 +212,9 @@ header a:hover {
 }
 
 #hero {
+	text-align: center;
   color: #555;
-  padding: 1rem 0;
+  padding: 2rem 4rem 3rem;
   font-size: 1.1rem;
 }
 
