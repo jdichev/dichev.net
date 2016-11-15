@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
 }
 
 h2 {
@@ -211,15 +211,18 @@ header a:hover {
 }
 
 #hero {
-	text-align: center;
+	/*text-align: center;*/
   color: #555;
-  padding: 2rem 4rem 3rem;
+  padding: 1rem 0 3rem;
   font-size: 1.1rem;
+	transform: rotate(-3deg);
+	transition: 0.3s ease-in-out;
 }
 
 #hero:hover {
   cursor: default;
   color: #333;
+	transform: rotate(-2deg);
 }
 
 #post,
