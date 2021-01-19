@@ -2,7 +2,7 @@
 title: "Създаване на wireframe - видео с рисуване"
 author: jordan
 date: 2009-6-19 12:00
-template: post.jade
+template: post.pug
 ---
 
 Wireframe, предполагам това на български е "телена рамка".

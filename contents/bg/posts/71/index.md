@@ -2,7 +2,7 @@
 title: "Бета на JobInfo.bg"
 author: jordan
 date: 2007-4-4 12:00
-template: post.jade
+template: post.pug
 ---
 
 Един проект -

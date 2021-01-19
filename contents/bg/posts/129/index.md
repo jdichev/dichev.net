@@ -2,7 +2,7 @@
 title: "Видео за простотата"
 author: jordan
 date: 2009-8-23 12:00
-template: post.jade
+template: post.pug
 ---
 
 Няма много какво да се каже освен, че видеото е доста информативно.... и

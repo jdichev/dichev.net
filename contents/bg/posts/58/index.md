@@ -2,7 +2,7 @@
 title: "Кратък поглед върху Thermo - 2"
 author: jordan
 date: 2008-4-24 12:00
-template: post.jade
+template: post.pug
 ---
 
 Райън Стюърт, чийто блог за RIA следя, [е пуснал

@@ -2,7 +2,7 @@
 title: "Dictionary.com: най-накрая редизайн"
 author: jordan
 date: 2006-8-24 12:00
-template: post.jade
+template: post.pug
 ---
 
 Прочутият интернет речник [Dictionary.com](http://www.dictionary.com) най-после е с нов дизайн, както обеща да стане студиото на Зелдман.

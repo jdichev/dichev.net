@@ -2,7 +2,7 @@
 title: "Cars.bg рекламират наистина навсякъде"
 author: jordan
 date: 2009-7-21 12:00
-template: post.jade
+template: post.pug
 ---
 
 Вчера в кварталите наоколо почти не видях кола без флаер на cars.bg

@@ -1,6 +1,6 @@
 ---
 title: Архив
-template: archive.jade
+template: archive.pug
 ---
 
 ## Архивът

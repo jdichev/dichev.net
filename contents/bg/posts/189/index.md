@@ -2,7 +2,7 @@
 title: "Лесно публикуване с wintersmith"
 author: jordan
 date: 2016-2-17 12:00
-template: post.jade
+template: post.pug
 ---
 
 Този сайт е преживял много метаморфози. Преди време ползвах CMS системи като WordPress и Radiant. След това написах своя собствена системка, но това винаги изискваше да ползвам хостинг акаунт с база данни.
@@ -14,14 +14,19 @@ template: post.jade
 Последно се спрях на следния вариант:
 
 1. Изпълнява се build командата за да получим статичния сайт в директория build
+
 ```
 $ wintersmith build
 ```
+
 2. Премахваме remote бранча gh-pages
+
 ```
 $ git push origin --delete gh-pages
 ```
+
 3. Публикуваме сайта от build директорията в нов remote бранч gh-pages
+
 ```
 $ git subtree push --prefix=build origin gh-pages
 ```

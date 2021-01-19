@@ -2,7 +2,7 @@
 title: "Adobe BrowserLab дава възможност за преглед на сайт едновременно в различни браузъри"
 author: jordan
 date: 2009-6-3 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![](jd_browserlab.png)

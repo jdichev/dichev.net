@@ -2,7 +2,7 @@
 title: "Google е най-големият източник на интернет трафик"
 author: jordan
 date: 2009-10-14 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![Google](google.jpg)

@@ -2,7 +2,7 @@
 title: "Fusion Tables от Google Labs за визуализация на големи таблици"
 author: jordan
 date: 2009-6-10 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![](fusion_tables.png)

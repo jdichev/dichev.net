@@ -2,7 +2,7 @@
 title: "“Мирис на путинщина”"
 author: jordan
 date: 2006-10-12 12:00
-template: post.jade
+template: post.pug
 ---
 
 “[Уволнението на Иво Инджев - мирис на

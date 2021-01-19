@@ -2,7 +2,7 @@
 title: "Дизайн за WPF/Silverlight - линк"
 author: jordan
 date: 2007-8-15 12:00
-template: post.jade
+template: post.pug
 ---
 
 В [RIABG.ORG](http://riabg.org/ "RIABG.ORG") са пуснали [интересно

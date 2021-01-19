@@ -2,7 +2,7 @@
 title: "Презентация на Google Wave"
 author: jordan
 date: 2009-5-29 12:00
-template: post.jade
+template: post.pug
 ---
 
 Презентация на Google Wave, в случай, че някой още не я е гледал:

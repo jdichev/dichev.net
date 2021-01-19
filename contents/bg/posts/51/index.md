@@ -2,7 +2,7 @@
 title: "I took it!"
 author: jordan
 date: 2008-7-29 12:00
-template: post.jade
+template: post.pug
 ---
 
 [![I took the web design survey. did

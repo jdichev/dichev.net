@@ -2,7 +2,7 @@
 title: "Ако се чудите какво да правите със стария си смартфон"
 author: jordan
 date: 2011-7-8 12:00
-template: post.jade
+template: post.pug
 ---
 
 [![Киндълчето ми

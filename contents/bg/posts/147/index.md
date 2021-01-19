@@ -2,7 +2,7 @@
 title: "Youtube Direct: ъплоуд платформата на Youtube за вашия сайт"
 author: jordan
 date: 2009-11-18 12:00
-template: post.jade
+template: post.pug
 ---
 
 Youtube вече правят нещо сериозно в посока да използват съществуващите

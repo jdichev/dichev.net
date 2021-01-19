@@ -2,7 +2,7 @@
 title: "Adobe SVG Viewer - краят"
 author: jordan
 date: 2006-9-8 12:00
-template: post.jade
+template: post.pug
 ---
 
 [Адобе ще спре подръжката на своя SVG Viewer](https://web.archive.org/web/20061214185004/http://www.adobe.com/svg/eol.html) от началото на следващата година. Според информацията там, приложението няма да бъде инсталирано във Виста.

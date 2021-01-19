@@ -2,7 +2,7 @@
 title: "Новата Opera е на линия"
 author: jordan
 date: 2008-6-12 12:00
-template: post.jade
+template: post.pug
 ---
 
 Дни преди официалното пускане на новата версия на Firefox, [Opera пусна

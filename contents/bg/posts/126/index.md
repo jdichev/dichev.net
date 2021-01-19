@@ -2,7 +2,7 @@
 title: "Презентация за оптимизиране на уеб приложения"
 author: jordan
 date: 2009-8-19 12:00
-template: post.jade
+template: post.pug
 ---
 
 [Стоян Стефанов](http://www.phpied.com/), който работи за Yahoo, пише

@@ -2,7 +2,7 @@
 title: "Небето над нас"
 author: jordan
 date: 2009-6-25 12:00
-template: post.jade
+template: post.pug
 ---
 
 Не се заглеждаме достатъчно често в него, но пък можем да погледаме това

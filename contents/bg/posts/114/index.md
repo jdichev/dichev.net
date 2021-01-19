@@ -2,7 +2,7 @@
 title: "Въведение в RDFa*"
 author: jordan
 date: 2009-7-2 12:00
-template: post.jade
+template: post.pug
 ---
 
 (Следва превод от Йордан Дичев на статията [Introduction to
@@ -74,7 +74,7 @@ Yahoo! и Google са започнали отдавна да използват 
 
 Пълноценен преглед в Yahoo!
 
-----------------
+---
 
 Съществува търговско предимство от това да има едно по-добро „разбиране“
 на страниците, които се индексират: по-релевантни, по-фокусирани реклами
@@ -104,7 +104,7 @@ Yahoo! и Google са започнали отдавна да използват 
 май 2009, че аз съм авторът му и че позволявам на други хора да ползват
 материала както намерят за добре:
 
-`<html><head>  <title>RDFa: Now everyone can have an API</title>  <meta name="author" content="Mark Birbeck" />  <meta name="created" content="2009-05-09" />  <link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" /></head>...</html>`
+`<html><head> <title>RDFa: Now everyone can have an API</title> <meta name="author" content="Mark Birbeck" /> <meta name="created" content="2009-05-09" /> <link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" /></head>...</html>`
 
 Този пример показва как HTML елегантно опакова мета-данните на документа
 на отделно от текста на документа място. HTML използва head елемента за
@@ -186,7 +186,7 @@ Attribution-Noncommercial-No Derivative works лиценза.
 елемента, сте напълно прави. За да се изразят отделните лицензи с всяка
 картинка трябва да се направи следното:
 
-`<img src="image1.png"  rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" /><img src="image2.png"  rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" />`
+`<img src="image1.png" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" /><img src="image2.png" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" />`
 
 Тук може да се види принципът в действие - постепенни подобрения на
 базата на възможностите за мета-данни, които HTML предлага. Подобни
@@ -234,13 +234,13 @@ RDFa `@content` може да се прилага към всеки един е�
 документ са в `head `на документа, и че същата информация е възможно да
 бъде прочетена от човек в `body `на елемента.
 
-`<html><head>  <title>RDFa: Now everyone can have an API</title>  <meta name="author" content="Mark Birbeck" />  <meta name="created" content="2009-05-09" /></head><body>  <h1>RDFa: Now everyone can have an API</h1>  Author: <em>Mark Birbeck</em>  Created: <em>May 9th, 2009</em></body></html>`
+`<html><head> <title>RDFa: Now everyone can have an API</title> <meta name="author" content="Mark Birbeck" /> <meta name="created" content="2009-05-09" /></head><body> <h1>RDFa: Now everyone can have an API</h1> Author: <em>Mark Birbeck</em> Created: <em>May 9th, 2009</em></body></html>`
 
 С помощта на RDFa можем да обединим тези две единици информация така че
 мета-данните да се намират на същото място, на което е и текстът за
 четене.
 
-`<html><head>  <title>RDFa: Now everyone can have an API</title></head><body>  <h1>RDFa: Now everyone can have an API</h1>  Author: <em property="author" content="Mark Birbeck">    Mark Birbeck</em>  Published: <em property="created" content="2009-05-09">    May 14th, 2009</em></body></html>`
+`<html><head> <title>RDFa: Now everyone can have an API</title></head><body> <h1>RDFa: Now everyone can have an API</h1> Author: <em property="author" content="Mark Birbeck"> Mark Birbeck</em> Published: <em property="created" content="2009-05-09"> May 14th, 2009</em></body></html>`
 
 След малко ще видим как момже да подобрим този пример. За сега просто
 трябва да разберем, че в зависимост от това дали мета-данните се намиран
@@ -293,7 +293,7 @@ RDFa `@content` може да се прилага към всеки един е�
 направено в `body `елемента или `html `елемента. Пълният пример би
 изглеждал така:
 
-`<html xmlns:dc="/"> <head>  <title>RDFa: Now everyone can have an API</title> </head> <body>  <h1>RDFa: Now everyone can have an API</h1>  Author: <em property="dc:creator" content="Mark Birbeck">    Mark Birbeck</em>  Published: <em property="dc:created" content="2009-05-09">    May 9th, 2009</em> </body></html>`
+`<html xmlns:dc="/"> <head> <title>RDFa: Now everyone can have an API</title> </head> <body> <h1>RDFa: Now everyone can have an API</h1> Author: <em property="dc:creator" content="Mark Birbeck"> Mark Birbeck</em> Published: <em property="dc:created" content="2009-05-09"> May 9th, 2009</em> </body></html>`
 
 Има много други речници, от които да се избира и ще спомена някои от тях
 в следващата статия от серията. Разбира се нищо не може да ви спре от
@@ -321,7 +321,7 @@ RDFa `@content` може да се прилага към всеки един е�
 изразим като използваме "replaces" термина на Dublin Core. Изразяваме
 такива взаимоотношения по следния начин:
 
-`<html xmlns:dc="http://purl.org/dc/terms/"> <head>  <title>RDFa: Now everyone can have an API</title> </head> <body>  <h1>RDFa: Now everyone can have an API</h1>  Author: <em property="dc:creator" content="Mark Birbeck">    Mark Birbeck</em>  Created: <em property="dc:created" content="2009-05-09">    May 9th, 2009</em>  License: <a rel="license" href="http://creativecommons.org/licenses/ » by-sa/3.0/">    CC Attribution-ShareAlike</a>  Previous version: <a rel="dc:replaces" href="rdfa.0.8.html">    version 0.8</a> </body></html>`
+`<html xmlns:dc="http://purl.org/dc/terms/"> <head> <title>RDFa: Now everyone can have an API</title> </head> <body> <h1>RDFa: Now everyone can have an API</h1> Author: <em property="dc:creator" content="Mark Birbeck"> Mark Birbeck</em> Created: <em property="dc:created" content="2009-05-09"> May 9th, 2009</em> License: <a rel="license" href="http://creativecommons.org/licenses/ » by-sa/3.0/"> CC Attribution-ShareAlike</a> Previous version: <a rel="dc:replaces" href="rdfa.0.8.html"> version 0.8</a> </body></html>`
 
 Сега като разбрахме речниците, нека да се върнем към основният ни
 пример.
@@ -361,7 +361,7 @@ RDFa `@content` може да се прилага към всеки един е�
 В следващото издание на ALA ще научим как да добавяме свойства към
 картинка и как да добавяме метаданни към всяко от тях.
 
-* * * * *
+---
 
 ^\*^ Translated with the permission of [A List Apart
 Magazine](http://www.alistapart.com/) and the author[s].

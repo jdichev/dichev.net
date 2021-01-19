@@ -2,7 +2,7 @@
 title: "Едно вметване за едни снимки"
 author: jordan
 date: 2007-1-18 12:00
-template: post.jade
+template: post.pug
 ---
 
 Снимките на агенция [Ройтерс](http://www.reuters.com/) винаги са ме
@@ -19,4 +19,4 @@ template: post.jade
 талант начин.
 
 Ето го и
-[линкът](javascript:void(window.open('http://photos.reuters.com/pictures/slideshowrefresh.aspx?id=2&name=633003715863906250&dat=29%20Nov%202006&title=24+Hours&src=011707_MIDART_editorschoice','slideshowWin','top=50,left=100,height=580,resizable=yes,width=733,scrollbars=auto'))).
+[линкът](<javascript:void(window.open('http://photos.reuters.com/pictures/slideshowrefresh.aspx?id=2&name=633003715863906250&dat=29%20Nov%202006&title=24+Hours&src=011707_MIDART_editorschoice','slideshowWin','top=50,left=100,height=580,resizable=yes,width=733,scrollbars=auto'))>).

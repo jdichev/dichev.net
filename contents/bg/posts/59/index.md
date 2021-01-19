@@ -2,7 +2,7 @@
 title: "Незначителни нови неща"
 author: jordan
 date: 2008-4-20 12:00
-template: post.jade
+template: post.pug
 ---
 
 Бях решил да минавам към Ruby on Rails базиран софтуер за блогване ей

@@ -2,7 +2,7 @@
 title: "Връзка към полезен плъгин за разработка и дебъг със Zend Framework"
 author: jordan
 date: 2009-3-31 12:00
-template: post.jade
+template: post.pug
 ---
 
 Намерих

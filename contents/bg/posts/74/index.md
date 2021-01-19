@@ -2,7 +2,7 @@
 title: "Тая статистика"
 author: jordan
 date: 2007-1-4 12:00
-template: post.jade
+template: post.pug
 ---
 
 И мен ме кефи новият “фийчър” на Гугъл четеца - Personalized Trends. Ето
@@ -14,14 +14,14 @@ items**, **starred 12 items**, and **shared 1 items**.”
 
 А някои от моите Топ 10 са:
 
--   Dnevnik.bg
--   BBC News | World
--   CNET News.com
--   BBC News | Europe
--   Scobleizer - Tech Geek Blogger
--   Reuters: Internet News
--   AdverBox
--   TechCrunch
+- Dnevnik.bg
+- BBC News | World
+- CNET News.com
+- BBC News | Europe
+- Scobleizer - Tech Geek Blogger
+- Reuters: Internet News
+- AdverBox
+- TechCrunch
 
 Май повече чета новините от света, а и тукашните. При всички положения -
 приятна изненада тази сутрин от Гугъл рийдъра - страхотен софтуер в

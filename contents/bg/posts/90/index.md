@@ -2,7 +2,7 @@
 title: "20 полезни минути на тема визуализации"
 author: jordan
 date: 2009-3-2 12:00
-template: post.jade
+template: post.pug
 ---
 
 Може би не е нещо ново, но ми се стори интересно да споделя видеото от
@@ -10,7 +10,7 @@ template: post.jade
 визуализации от историята като например визуализация на епидемия от
 холера, намаляване на войската, а също и една идея от... Индиана Джоунс.
 
- 
+
 
 [Jeffrey Veen | UX Week 2008 | Adaptive Path](http://vimeo.com/3250006)
 from [Adaptive Path](http://vimeo.com/adaptivepath) on

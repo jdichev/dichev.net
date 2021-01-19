@@ -2,7 +2,7 @@
 title: "Chrome OS: първи скрийншоти от днешната презентация на новата операционна система на Google"
 author: jordan
 date: 2009-11-19 12:00
-template: post.jade
+template: post.pug
 ---
 
 Днес Google за пръв път представи официалния външен вид на Chrome OS -

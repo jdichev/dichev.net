@@ -1,6 +1,6 @@
 ---
 title: Относно
-template: page.jade
+template: page.pug
 ---
 
 "Уебсайт ръчна изработка" (УРИ) е личният сайт на Йордан Дичев. Професията ми е да проектирам и разработвам приложения.
@@ -9,5 +9,5 @@ template: page.jade
 
 Ако се интересувате повече от мен, появявам се и на следните места в мрежата:
 
-* [GitHub](https://github.com/jdichev "@jdichev"), където прекарвам повече време
+- [GitHub](https://github.com/jdichev "@jdichev"), където прекарвам повече време
 <!-- * [twitter](https://twitter.com/jdichev "@jdichev"), където предимно чета и споделям неща по работа -->

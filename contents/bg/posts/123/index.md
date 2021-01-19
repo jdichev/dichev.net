@@ -2,7 +2,7 @@
 title: "Иконки за сайтове за електронна търговия"
 author: jordan
 date: 2009-7-28 12:00
-template: post.jade
+template: post.pug
 ---
 
 [![](ecommerce-icons.jpg)](http://www.webresourcesdepot.com/e-commerce-icons-collection/)

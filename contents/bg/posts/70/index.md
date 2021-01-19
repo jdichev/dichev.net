@@ -2,7 +2,7 @@
 title: "Браузър на данни"
 author: jordan
 date: 2007-8-7 12:00
-template: post.jade
+template: post.pug
 ---
 
 Днес ми попадна следната програма - [Kirix

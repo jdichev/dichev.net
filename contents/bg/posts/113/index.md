@@ -2,7 +2,7 @@
 title: "Мрежата в реално време може да бъде вредна за личните ви сайтове/блогове"
 author: jordan
 date: 2009-6-30 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![](traffic_drop.jpg)

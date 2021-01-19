@@ -2,7 +2,7 @@
 title: "Видео със създаване на wireframe"
 author: jordan
 date: 2009-9-1 12:00
-template: post.jade
+template: post.pug
 ---
 
 Едно хубаво видео от Ник Финк, на което е заснето как създава телена
@@ -10,4 +10,4 @@ template: post.jade
 5](http://www.omnigroup.com/applications/omnigraffle/pro/), на фона на
 приятна музика.
 
- От [тук](http://www.nickfinck.com/blog/entry/creating_wireframes/)
+От [тук](http://www.nickfinck.com/blog/entry/creating_wireframes/)

@@ -2,10 +2,10 @@
 title: "Стефан Кънчев в ColourLovers"
 author: jordan
 date: 2009-9-8 12:00
-template: post.jade
+template: post.pug
 ---
 
- 
+
 
 ![](tenio-04.jpg)
 

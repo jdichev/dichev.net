@@ -2,7 +2,7 @@
 title: "Asdf asdf asdf"
 author: jordan
 date: 2009-12-16 12:00
-template: post.jade
+template: post.pug
 ---
 
 Asdf asdf asdf

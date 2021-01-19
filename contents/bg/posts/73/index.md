@@ -2,7 +2,7 @@
 title: "Природно бедствие в интернет"
 author: jordan
 date: 2007-1-5 12:00
-template: post.jade
+template: post.pug
 ---
 
 [“Интересна” ситуация за собствениците на 10 000 домейна в

@@ -2,7 +2,7 @@
 title: "Щатски местен вестник отразява последните си дни във видео"
 author: jordan
 date: 2009-2-28 12:00
-template: post.jade
+template: post.pug
 ---
 
 [Rocky Mountain

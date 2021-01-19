@@ -2,7 +2,7 @@
 title: "Ораторство на фона на анимирана типография"
 author: jordan
 date: 2009-7-3 12:00
-template: post.jade
+template: post.pug
 ---
 
 Благодаря на [Митака](http://www.twitter.com/dimitarpeev), че ме светна

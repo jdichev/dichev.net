@@ -2,7 +2,7 @@
 title: "Връзка към колекция с красиви визуализациии"
 author: jordan
 date: 2009-6-22 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![](globaltrafficmap.jpg)

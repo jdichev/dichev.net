@@ -2,7 +2,7 @@
 title: "Визуализиране на състоянието на Интернет днес в числа"
 author: jordan
 date: 2010-3-1 12:00
-template: post.jade
+template: post.pug
 ---
 
 Една приятна визуализация от доставена от Vimeo с много едри числа и
@@ -12,4 +12,4 @@ template: post.jade
 [Jesse Thomas](http://vimeo.com/jessesaves) on
 [Vimeo](http://vimeo.com).
 
- 
+

@@ -2,7 +2,7 @@
 title: "Bing Video: кофти преживяване на един потребител"
 author: jordan
 date: 2009-11-11 12:00
-template: post.jade
+template: post.pug
 ---
 
 Говори се, че технологиите в момента са развити дотолкова, че например

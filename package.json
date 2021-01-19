@@ -4,7 +4,9 @@
   "description": "my personal site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "git push origin --delete gh-pages && git subtree push --prefix=build origin gh-pages",
+    "preview": "./node_modules/wintersmith/bin/wintersmith preview",
+    "build": "./node_modules/wintersmith/bin/wintersmith build"
   },
   "repository": {
     "type": "git",
@@ -14,11 +16,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jdichev/dichev.net/issues"
-  },
-  "scripts": {
-    "publish": "git push origin --delete gh-pages && git subtree push --prefix=build origin gh-pages",
-    "preview": "./node_modules/wintersmith/bin/wintersmith preview",
-    "build": "./node_modules/wintersmith/bin/wintersmith build"
   },
   "homepage": "https://github.com/jdichev/dichev.net",
   "dependencies": {

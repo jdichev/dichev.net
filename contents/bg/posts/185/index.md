@@ -2,7 +2,7 @@
 title: "Как да извличаме данни от сайт като Epay.bg с Firebug конзолата и малко jQuery код"
 author: jordan
 date: 2012-2-20 12:00
-template: post.jade
+template: post.pug
 ---
 
 Винаги ми се е искало да имам някаква възможност да знам колко общо съм
@@ -12,8 +12,9 @@ template: post.jade
 Открих, че при нужда това може да стане чрез използването на това, което
 има като възможности в Ипей и малко джаваскрипт в конзолата на добавката
 за популярния браузър Firefox наречена [Firebug](http://getfirebug.com/)
+
 - може би най-популярния плъгин за дебъгване на уеб интерфейси при
-разработката им.
+  разработката им.
 
 За да получи нужната информация, потребителят трябва да направи
 следното:
@@ -28,10 +29,7 @@ template: post.jade
 това може да позволи да се направи операция, която да изчисли колко пари
 са изхарчени по определенно нещо.
 
-`jQuery("html body table.body tbody tr td center table#main_table tbody tr td#main_table form table.grid tbody tr.tr-2, html body table.body tbody tr td center table#main_table tbody tr td#main_table form table.grid tbody tr.tr-1")
-.each(function() {
-  console.log($(this).text());
-});`
+`jQuery("html body table.body tbody tr td center table#main_table tbody tr td#main_table form table.grid tbody tr.tr-2, html body table.body tbody tr td center table#main_table tbody tr td#main_table form table.grid tbody tr.tr-1") .each(function() { console.log($(this).text()); });`
 
 Надявам се кодът да е полезен на някого - как точно да стане
 пресмятането оставям на желаещите да се дозанимаят.

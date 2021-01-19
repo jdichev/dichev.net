@@ -2,7 +2,7 @@
 title: "Освен празник на труда"
 author: jordan
 date: 2008-1-1 12:00
-template: post.jade
+template: post.pug
 ---
 
 Първи Май, освен празник на труда, се оказва, че е и ден назапознаването

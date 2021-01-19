@@ -2,11 +2,11 @@
 title: "“Натисни бутона”"
 author: jordan
 date: 2006-9-26 12:00
-template: post.jade
+template: post.pug
 ---
 
 Много добра статия за button тага -
-[http://www.digital-web.com/articles/push\_my\_button/](http://www.digital-web.com/articles/push_my_button/ "Push my button").Оцених
+[http://www.digital-web.com/articles/push_my_button/](http://www.digital-web.com/articles/push_my_button/ "Push my button").Оцених
 я още повече защото в един настоящ проект ми се наложи да намеря начин да
 разширя възможноститета на обикновения input type=”submit” иползването
 на точно този таг ми помогна страшно много, но не бях очаквал да видя

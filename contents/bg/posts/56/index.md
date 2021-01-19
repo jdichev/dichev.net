@@ -2,7 +2,7 @@
 title: "NetBeans 6.1 вече налице и по-бърз"
 author: jordan
 date: 2008-4-29 12:00
-template: post.jade
+template: post.pug
 ---
 
 Скоро след като излезе NetBeans 6.0, вече има и [NetBeans

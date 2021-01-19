@@ -2,7 +2,7 @@
 title: "Няколко-битова визуална разходка из японски университет"
 author: jordan
 date: 2009-6-24 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![](zokei_tour.jpg)

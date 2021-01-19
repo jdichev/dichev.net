@@ -2,7 +2,7 @@
 title: "Флок (Flock web browser) - започва да ми харесва"
 author: jordan
 date: 2006-8-21 12:00
-template: post.jade
+template: post.pug
 ---
 
 Мина известно време в ползване на

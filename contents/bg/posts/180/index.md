@@ -2,7 +2,7 @@
 title: "Нещо като тераса мечта"
 author: jordan
 date: 2011-7-20 12:00
-template: post.jade
+template: post.pug
 ---
 
 [![Терасата

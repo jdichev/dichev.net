@@ -2,7 +2,7 @@
 title: "Постоянно “временно” недостъпен Live.com News"
 author: jordan
 date: 2008-4-25 12:00
-template: post.jade
+template: post.pug
 ---
 
 На супер много места четох ревюта за новата новинарска услуга на Live.com

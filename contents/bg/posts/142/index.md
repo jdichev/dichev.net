@@ -2,7 +2,7 @@
 title: "Google.bg срещу Bing.bg: реалността на локално ниво"
 author: jordan
 date: 2009-11-12 12:00
-template: post.jade
+template: post.pug
 ---
 
 Bing.bg - ако не вреди, то със сигурност не помага ако някой си помисли

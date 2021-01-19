@@ -2,7 +2,7 @@
 title: "Подстрижка „Мохикан“ или прическа убиец"
 author: jordan
 date: 2006-9-14 12:00
-template: post.jade
+template: post.pug
 ---
 
 Подстрижка „Мохикан“ ([повече информация в

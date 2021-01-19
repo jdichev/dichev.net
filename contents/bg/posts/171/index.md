@@ -2,7 +2,7 @@
 title: "Редактиране на (някои видове) код направо в браузъра с CodeMirror"
 author: jordan
 date: 2010-11-29 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![CodeMirror](codemirror.gif)

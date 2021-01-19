@@ -2,7 +2,7 @@
 title: "Креативната икономика"
 author: jordan
 date: 2006-8-10 12:00
-template: post.jade
+template: post.pug
 ---
 
 Много кратко четиво, но за сметка на това пък доста интересно:

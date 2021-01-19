@@ -2,7 +2,7 @@
 title: "Старите методи на контрол и разпространение на новини вече не работят благодарение на сайтове като Twitter"
 author: jordan
 date: 2009-7-2 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![](ioc.png)

@@ -2,11 +2,11 @@
 title: "Измерване на User Experience"
 author: jordan
 date: 2006-10-24 12:00
-template: post.jade
+template: post.pug
 ---
 
 Една бърза връзка
-([http://www.boxesandarrows.com/view/metrics\_for\_heu](http://www.boxesandarrows.com/view/metrics_for_heu))
+([http://www.boxesandarrows.com/view/metrics_for_heu](http://www.boxesandarrows.com/view/metrics_for_heu))
 към един материал в две части, посветен на измерването на това което
 потребителите правят с уебсайтовете.
 

@@ -2,7 +2,7 @@
 title: "Интернет от обекти"
 author: jordan
 date: 2010-3-17 12:00
-template: post.jade
+template: post.pug
 ---
 
 Интернет днес е много повече от това, което е бил до скоро. Интернет от

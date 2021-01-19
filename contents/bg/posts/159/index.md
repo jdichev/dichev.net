@@ -2,7 +2,7 @@
 title: "Почивай в мир, RFi на 103.6 МНz"
 author: jordan
 date: 2009-12-16 12:00
-template: post.jade
+template: post.pug
 ---
 
 [![Radio France Internationale](Rfi.jpg)](Rfi.jpg)

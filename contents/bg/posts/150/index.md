@@ -2,7 +2,7 @@
 title: "Zen Coding: удобна добавка за по-бързо писане на HTML и CSS код"
 author: jordan
 date: 2009-11-22 12:00
-template: post.jade
+template: post.pug
 ---
 
 Smashing Magazine отново „смашват“ като пускат нещо, което изглежда може

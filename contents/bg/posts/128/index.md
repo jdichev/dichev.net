@@ -2,7 +2,7 @@
 title: "Нови сайтлинкове в Google"
 author: jordan
 date: 2009-8-22 12:00
-template: post.jade
+template: post.pug
 ---
 
 [Някои

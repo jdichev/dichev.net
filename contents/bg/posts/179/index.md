@@ -2,7 +2,7 @@
 title: "Къстъмърите на Мтел"
 author: jordan
 date: 2011-7-19 12:00
-template: post.jade
+template: post.pug
 ---
 
 [![Мтел офис,

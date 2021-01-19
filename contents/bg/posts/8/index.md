@@ -2,7 +2,7 @@
 title: "Странна идея за обвързване на кариери и училища"
 author: jordan
 date: 2006-9-1 12:00
-template: post.jade
+template: post.pug
 ---
 
 В [тази](https://web.archive.org/web/20061214184952/http://www.dnevnik.bg/show/?storyid=280050) статия от уважавания от мен в. Дневник пише, че кариерите на завършилите висше образование ще класират университетите.

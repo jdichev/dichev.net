@@ -2,7 +2,7 @@
 title: "A List Apart пускат резултати от Web Design Survey"
 author: jordan
 date: 2007-10-17 12:00
-template: post.jade
+template: post.pug
 ---
 
 [На този

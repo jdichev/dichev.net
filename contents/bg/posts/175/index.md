@@ -2,7 +2,7 @@
 title: "Да намериш Чък Норис"
 author: jordan
 date: 2011-3-7 12:00
-template: post.jade
+template: post.pug
 ---
 
 Никога не пиша думи като find в полето за търсене на голямото Гъ, обаче

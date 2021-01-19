@@ -2,7 +2,7 @@
 title: "Размириците в Иран събуждат дискусии за новините в реално време"
 author: jordan
 date: 2009-6-16 12:00
-template: post.jade
+template: post.pug
 ---
 
 Събитията последвали оспорваните избори в Иран създадоха почва за
@@ -11,8 +11,9 @@ template: post.jade
 Йорк Таймс" излезе със статия озаглавена "[Dear CNN, Please Check
 Twitter for News About
 Iran](http://www.nytimes.com/external/readwriteweb/2009/06/14/14readwriteweb-dear-cnn-please-check-twitter-for-news-abou-45130.html)"
+
 - провокативно и обобщително заглавие от една водеща медия към друга
-такава.
+  такава.
 
 Очевидно голям брой хора, потребители на социалните сайтове Twitter и
 Flickr са се зачудили защо часове след като развитието на събитията в
@@ -56,10 +57,11 @@ curbs](http://news.cnet.com/8301-1023_3-10264634-93.html?part=rss&subj=news&tag=
 средства за информация. Също така, че социалните медии дават възможност
 на потребителите си да правят своя собствена журналистика като
 публикуват снимки, видео и новини от мястото на събитията в реално време
+
 - това е относителна успешна медия, но със сигурност по-трудно достигаща
-до множеството хора търсещи новини, което донякъде се е компенсира с
-привлеченото внимание върху потребителските профили отразяващи
-събитията.
+  до множеството хора търсещи новини, което донякъде се е компенсира с
+  привлеченото внимание върху потребителските профили отразяващи
+  събитията.
 
 Очевидно ако традиционните медии се провалят по един или друг начин да
 информират, се появяват достатъчно интернет потребители, които да го
@@ -72,10 +74,9 @@ Twitter и на един от блоговете на CNN, държавният 
 мрежа да бъде отложена за да може информацията от Иран да продължава да
 тече. Повече по темата на следните линкове:
 
--   [State Department to Twitter: Keep Iranian tweets
-    coming](http://ac360.blogs.cnn.com/2009/06/16/state-department-to-twitter-keep-iranian-tweets-coming/)
--   [Twitter downtime gets delayed for Iranian election
-    news](http://news.cnet.com/8301-17939_109-10265213-2.html)
--   [IRAN: Twitter, NTT America hold off maintenance to keep channel
-    clear](http://latimesblogs.latimes.com/babylonbeyond/2009/06/iran-twitter-ntt-america-hold-off-maintenance-to-keep-iran-channel-clear.html)
-
+- [State Department to Twitter: Keep Iranian tweets
+  coming](http://ac360.blogs.cnn.com/2009/06/16/state-department-to-twitter-keep-iranian-tweets-coming/)
+- [Twitter downtime gets delayed for Iranian election
+  news](http://news.cnet.com/8301-17939_109-10265213-2.html)
+- [IRAN: Twitter, NTT America hold off maintenance to keep channel
+  clear](http://latimesblogs.latimes.com/babylonbeyond/2009/06/iran-twitter-ntt-america-hold-off-maintenance-to-keep-iran-channel-clear.html)

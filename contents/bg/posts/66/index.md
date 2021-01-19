@@ -2,7 +2,7 @@
 title: "Забавен МС сайт"
 author: jordan
 date: 2007-8-11 12:00
-template: post.jade
+template: post.pug
 ---
 
 [defyallchallenges.com](http://www.defyallchallenges.com/)е забавно

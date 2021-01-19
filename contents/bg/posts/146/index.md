@@ -2,7 +2,7 @@
 title: "Визуализация на корупцията според ООН"
 author: jordan
 date: 2009-11-17 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![Визуализация корупция](corruption_visualization.png)

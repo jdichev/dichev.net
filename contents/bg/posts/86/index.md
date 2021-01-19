@@ -2,7 +2,7 @@
 title: "На този ден през 1993"
 author: jordan
 date: 2009-2-24 12:00
-template: post.jade
+template: post.pug
 ---
 
 Днес е 24 февруари. Казвам го, защото търся повод да споделя нещо, което

@@ -2,7 +2,7 @@
 title: "Една ама наистина бърза връзка"
 author: jordan
 date: 2006-12-3 12:00
-template: post.jade
+template: post.pug
 ---
 
 [Този виетнамец изкарва пари от правенето на пропагандни

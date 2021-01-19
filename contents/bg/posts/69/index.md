@@ -2,7 +2,7 @@
 title: "Отново Гугъл, този път Нюз"
 author: jordan
 date: 2007-8-8 12:00
-template: post.jade
+template: post.pug
 ---
 
 НОВО:

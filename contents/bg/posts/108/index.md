@@ -2,7 +2,7 @@
 title: "Малко следобедно настроение за пушенето и Twitter"
 author: jordan
 date: 2009-6-23 12:00
-template: post.jade
+template: post.pug
 ---
 
 Следобед е и се запитвам:

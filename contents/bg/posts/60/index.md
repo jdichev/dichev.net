@@ -2,7 +2,7 @@
 title: "Може би начало на закъснял дебат за средното образование"
 author: jordan
 date: 2007-11-8 12:00
-template: post.jade
+template: post.pug
 ---
 
 Това, което чета в [тази

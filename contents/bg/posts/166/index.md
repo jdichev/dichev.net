@@ -2,7 +2,7 @@
 title: "Adobe официално тества Flash за Android"
 author: jordan
 date: 2010-4-19 12:00
-template: post.jade
+template: post.pug
 ---
 
 ![Android Flash](android_flash1.jpg)
